@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Previsao do tempo</title>
+</head>
+<body>
+    <div id="content">
+        <input type="text" id="cidade" placeholder=" digite uma cidade">
+        <button id="pesquisar">Pesquisar</button>
+        <br>
+        <label for="atual">Atual</label>
+        <input type="radio" name="main"id="atual">
+        <label for="dias">Próximos 5 dias</label>
+        <input type="radio" name="main" id="dias">
+        <div>
+            <br>
+            <h2 id="textoCidade" class="texto">Cidade</h2>
+            <p id="tempe" class="texto">Temperatura</p>
+            <p id="tempe2" hidden class="texto"></p>
+            <p id="tempe3" hidden class="texto"></p>
+            <p id="tempe4" hidden class="texto"></p>
+            <p id="tempe5" hidden class="texto"></p>
+            <br>
+            <p id="clima" class="texto">Clima</p>
+            <p id="clima2" hidden class="texto"></p>
+            <p id="clima3" hidden class="texto"></p>
+            <p id="clima4" hidden class="texto"></p>
+            <p id="clima5" hidden class="texto"></p>
+            <img src="https://openweathermap.org/img/wn/02d.png" alt="" id="imagemClima">
+            <br>
+            <p id="umidade" class="texto">Umidade</p>
+            <p id="umidade2" hidden class="texto"></p>
+            <p id="umidade3" hidden class="texto"></p>
+            <p id="umidade4" hidden class="texto"></p>
+            <p id="umidade5" hidden class="texto"></p>
+            <br>
+            <p id="sensacao" class="texto">Sensação térmica</p>
+            <p id="sensacao2" hidden class="texto"></p>
+            <p id="sensacao3" hidden class="texto"></p>
+            <p id="sensacao4" hidden class="texto"></p>
+            <p id="sensacao5" hidden class="texto"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
